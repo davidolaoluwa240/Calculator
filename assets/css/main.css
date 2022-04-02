@@ -25,6 +25,12 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+
+  user-select: none; /* supported by Chrome and Opera */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none;
 }
 
 /* helper class */
@@ -74,6 +80,12 @@ body {
 .calculation--display:hover {
   background: var(--secondary-color);
   color: var(--light-color);
+}
+
+.calculation--display p {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  word-wrap: nowrap;
 }
 
 /* color mode */
