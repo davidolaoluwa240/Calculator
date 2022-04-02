@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;0,800;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="./assets/css/main.css" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <section class="calculator">
+      <h1 class="calculator--heading">Calculator</h1>
+
+      <div class="calculator--group grid">
+        <div class="calculator--group__key grid--col-3 calculation--display">
+          <p class="calculator--group__key--text calculation--display__text">
+            Result
+          </p>
+        </div>
+        <div
+          class="calculator--group__key justify--center calculator--group__key--reset"
+          data-calc-key="C"
+        >
+          <p class="calculator--group__key--text">C</p>
+        </div>
+        <div class="calculator--group__key justify--center" data-calc-key="1">
+          <p class="calculator--group__key--text">1</p>
+        </div>
+        <div class="calculator--group__key justify--center" data-calc-key="2">
+          <p class="calculator--group__key--text">2</p>
+        </div>
+        <div class="calculator--group__key justify--center" data-calc-key="3">
+          <p class="calculator--group__key--text">3</p>
+        </div>
+        <div class="calculator--group__key justify--center" data-calc-key="+">
+          <p class="calculator--group__key--text">&plus;</p>
+        </div>
+        <div class="calculator--group__key justify--center" data-calc-key="4">
+          <p class="calculator--group__key--text">4</p>
+        </div>
+        <div class="calculator--group__key justify--center" data-calc-key="5">
+          <p class="calculator--group__key--text">5</p>
+        </div>
+        <div class="calculator--group__key justify--center" data-calc-key="6">
+          <p class="calculator--group__key--text">6</p>
+        </div>
+        <div class="calculator--group__key justify--center" data-calc-key="-">
+          <p class="calculator--group__key--text">&minus;</p>
+        </div>
+        <div class="calculator--group__key justify--center" data-calc-key="7">
+          <p class="calculator--group__key--text">7</p>
+        </div>
+        <div class="calculator--group__key justify--center" data-calc-key="8">
+          <p class="calculator--group__key--text">8</p>
+        </div>
+        <div class="calculator--group__key justify--center" data-calc-key="9">
+          <p class="calculator--group__key--text">9</p>
+        </div>
+        <div class="calculator--group__key justify--center" data-calc-key="*">
+          <p class="calculator--group__key--text">&times;</p>
+        </div>
+        <div class="calculator--group__key justify--center" data-calc-key="/">
+          <p class="calculator--group__key--text">/</p>
+        </div>
+        <div class="calculator--group__key justify--center" data-calc-key="0">
+          <p class="calculator--group__key--text">0</p>
+        </div>
+        <div class="calculator--group__key justify--center" data-calc-key=".">
+          <p class="calculator--group__key--text">.</p>
+        </div>
+        <div class="calculator--group__key justify--center" data-calc-key="=">
+          <p class="calculator--group__key--text">=</p>
+        </div>
+      </div>
+      <div class="color--mode__toggle">Light Mode 🌞</div>
+    </section>
+    <script src="./assets/js/index.js"></script>
+    <script src="./assets/js/colorMode.js"></script>
+  </body>
+</html>
